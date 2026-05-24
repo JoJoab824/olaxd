@@ -3,3 +3,13 @@ body {
     color: black;
     
 }
+a{
+    text-decoration:none;
+    color:aquamarine;
+    background-color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: gray;
+} 
