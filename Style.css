@@ -1,7 +1,7 @@
 body { 
     background-color: aquamarine;
     color: black;
-    
+
 }
 a{
     text-decoration:none;
@@ -9,7 +9,20 @@ a{
     background-color:black;
     padding: 10px;
     border-radius: 10px;
+    border:3px solid black;
 }
-a:hover{
-    background-color: gray;
+.btn-aceptar:hover{
+    background-color: rgba(128, 255, 0, 0.648);
 } 
+.btn-rechazar:hover{
+    background-color: rgba(255, 0, 0, 0.638);
+}
+.btn-rechazar{
+    background-color: red;
+    color: aliceblue;
+
+}
+.btn-aceptar{
+    background-color: chartreuse;
+    color: black;
+}
